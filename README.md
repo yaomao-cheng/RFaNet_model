@@ -95,7 +95,8 @@ Code contributor: Yao-Mao Cheng
       python GradCAM_D_only.py --test_batch_size 32 --depth 9 --model ./model_best.pth.tar --toTensorform 1 --save ./GradCAM_RFaNet --datapath ./ASL --subject SubjectA/ --arch RFaNet
       ```
 ## Transfer learning
-    We adapt transfer learning on transferring the contour features among the similar gesture classes' appearance of different finger-spelling datasets. Adding the <path of pre-trained model weights for loading> by --refine ./<path>
+    We adapt transfer learning on transferring the contour features among the similar gesture classes' appearance of different finger-spelling datasets. 
+    Adding the <path of pre-trained model weights for loading> by --refine ./<path>
     
 ## Citation
      InProceedings{
