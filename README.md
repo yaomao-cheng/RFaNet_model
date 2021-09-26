@@ -56,7 +56,7 @@ Code contributor: Yao-Mao Cheng
                 (4) resize to 64x64 and save as .npy
  
 ## Training Steps
-  1. Run **main_D_Smart_Val.py** with one GPU or multiple GPU to train the Network. Furthermore, set your certain ArgumentParser or default one.
+  1. Run **utils/training_testing/main_D_Smart_Val.py** with one GPU or multiple GPU to train the Network. Furthermore, set your certain ArgumentParser or default one.
   
       **ArgumentParser elements**
       ```python
@@ -65,4 +65,18 @@ Code contributor: Yao-Mao Cheng
 
       **Command example**
       ```python
-      python main_D_Smart_Val.py -sr --s 0.0001 --arch RFaNet --depth 10 --batch-size 64 --test-batch-size 32 --subject SubjectA/
+      python main_D_Smart_Val.py -sr --s 0.0001 --arch RFaNet --depth 9 --batch-size 64 --test-batch-size 32 --subject SubjectA/
+      
+## Testing Steps
+
+  1. Run **utils/training_testing/confusion_matrix_D_only.py** for getting confusion matrix for certain Subject of Dataset. And **utils/model_weights/Subject(A~E)/model_best.pth.tar** is the model weights of pre-trained RFaNet on each subject of ASL with best testing accuracy by LOOCV.
+  
+      **ArgumentParser elements**
+      ```python
+      --datapath <testing data location> --model <path to the model weights> --test-batch-size <batchsize of testing> --arch <model architecture> --depth <model depth> --subject <testing subject> --datapath <path to the datafile(.npy)>
+        ```
+
+      **Command example**
+      ```python
+      python confusion_matrix_for_newarch.py --model ./checkpoint/model_best.pth.tar --test-batch-size 32 --arch vgg_D_only_depth_seg --depth 16 --subject SubjectE/ --datapath ./D_WeiZen_follow_filename
+      ```
