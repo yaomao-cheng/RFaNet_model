@@ -56,7 +56,7 @@ Code contributor: Yao-Mao Cheng
                 (4) resize to 64x64 and save as .npy
  
 ## Training Steps
-  1. Run **utils/training_testing/main_D_Smart_Val.py** with one GPU or multiple GPU to train the Network. Furthermore, set your certain ArgumentParser or default one.
+  Run **utils/training_testing/main_D_Smart_Val.py** with one GPU or multiple GPU to train the Network. Furthermore, set your certain ArgumentParser or default one.
   
       **ArgumentParser elements**
       ```python
@@ -69,7 +69,7 @@ Code contributor: Yao-Mao Cheng
       
 ## Testing Steps
 
-  1. Run **utils/training_testing/confusion_matrix_D_only.py** for getting confusion matrix for certain Subject of Dataset. And **utils/model_weights/Subject(A~E)/model_best.pth.tar** is the model weights of pre-trained RFaNet on each subject of ASL with best testing accuracy by LOOCV.
+  Run **utils/training_testing/confusion_matrix_D_only.py** for getting confusion matrix for certain Subject of Dataset. And **utils/model_weights/Subject(A~E)/model_best.pth.tar** is the model weights of pre-trained RFaNet on each subject of ASL with best testing accuracy by LOOCV.
   
       **ArgumentParser elements**
       ```python
@@ -83,7 +83,7 @@ Code contributor: Yao-Mao Cheng
       
 ## GradCAM visualization
 
-  1. Run **utils/GradCAM/GradCAM_D_only.py** for generating visualization heatmaps of **misclassified cases**. And **utils/GradCAM/GradCAM_D_correct_cam.py** for generating visualization heatmaps of **correctly classified cases**.
+  Run **utils/GradCAM/GradCAM_D_only.py** for generating visualization heatmaps of **misclassified cases**. And **utils/GradCAM/GradCAM_D_correct_cam.py** for generating visualization heatmaps of **correctly classified cases**.
   
       **ArgumentParser elements**
       ```python
