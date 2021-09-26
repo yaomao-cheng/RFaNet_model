@@ -65,4 +65,4 @@ Code contributor: Yao-Mao Cheng
 
       **Command example**
       ```python
-      python main_D_Smart_Val.py -sr --s 0.0001 --arch vgg_D_ASPPSA_v4_DSB --depth 10 --batch-size 64 --test-batch-size 32 --subject SubjectE/
+      python main_D_Smart_Val.py -sr --s 0.0001 --arch RFaNet --depth 10 --batch-size 64 --test-batch-size 32 --subject SubjectA/
