@@ -78,5 +78,19 @@ Code contributor: Yao-Mao Cheng
 
       **Command example**
       ```python
-      python confusion_matrix_for_newarch.py --model ./checkpoint/model_best.pth.tar --test-batch-size 32 --arch vgg_D_only_depth_seg --depth 16 --subject SubjectE/ --datapath ./ASL
+      python confusion_matrix_D_only.py --model ./model_best.pth.tar --test-batch-size 32 --arch RFaNet --depth 9 --subject SubjectA/ --datapath ./ASL
+      ```
+      
+## GradCAM visualization
+
+  1. Run **utils/GradCAM/GradCAM_D_only.py** for generating visualization heatmaps of **misclassified cases**. And **utils/GradCAM/GradCAM_D_correct_cam.py** for generating visualization heatmaps of **correctly classified cases**.
+  
+      **ArgumentParser elements**
+      ```python
+       --test-batch-size <batchsize of testing> --depth <model depth> --model <path to the model weights> --toTensorform <data_transform : 1 means -1~1> --save <saving path of the heatmaps> --datapath <path to the data file(.npy)> --subject <testing subject> --arch <model architecture>
+        ```
+
+      **Command example**
+      ```python
+      python GradCAM_D_only.py --test_batch_size 32 --depth 9 --model ./model_best.pth.tar --toTensorform 1 --save ./GradCAM_RFaNet --datapath ./ASL --subject SubjectA/ --arch RFaNet
       ```
