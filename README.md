@@ -73,7 +73,7 @@ Code contributor: Yao-Mao Cheng
   
       **ArgumentParser elements**
       ```python
-      --datapath <testing data location> --model <path to the model weights> --test-batch-size <batchsize of testing> --arch <model architecture> --depth <model depth> --subject <testing subject> --datapath <path to the datafile(.npy)>
+      --model <path to the model weights> --test-batch-size <batchsize of testing> --arch <model architecture> --depth <model depth> --subject <testing subject> --datapath <path to the datafile(.npy)>
         ```
 
       **Command example**
