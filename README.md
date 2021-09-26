@@ -1,13 +1,13 @@
-# RFaNet_model
-=================================================================
 # Code for the paper
+
+Code contributor: Yao-Mao Cheng
 
 **Please cite this paper if you use the code**
 
 =================================================================
 
 ## Statement
-  * you can find the model in **utils/models/**
+  * you can find the RFaNet model in **utils/model/**
   * The code is trained and tested on **ASL Dataset, NTU Dataset, and OUHANDS Dataset** in numpy file
   * you can train your datasets by following the **Training Steps** shown below
   * If the released files exist any error, please contact me. Thanks !
