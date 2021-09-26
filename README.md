@@ -94,3 +94,12 @@ Code contributor: Yao-Mao Cheng
       ```python
       python GradCAM_D_only.py --test_batch_size 32 --depth 9 --model ./model_best.pth.tar --toTensorform 1 --save ./GradCAM_RFaNet --datapath ./ASL --subject SubjectA/ --arch RFaNet
       ```
+## transfer learning
+    ASL dataset
+    
+     InProceedings{
+     author = {Shih-Hung Yang, Wei-Ren Chen, Wun-Jhu Huang, Yon-Ping Chen},
+     title = {DDaNet: Dual-Path Depth-Aware Attention Network for Fingerspelling Recognition Using RGB-D Images},
+     booktitle = {IEEE Access},
+     year = {2020}
+     }
