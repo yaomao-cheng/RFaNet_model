@@ -73,10 +73,10 @@ Code contributor: Yao-Mao Cheng
   
       **ArgumentParser elements**
       ```python
-      --model <path to the model weights> --test-batch-size <batchsize of testing> --arch <model architecture> --depth <model depth> --subject <testing subject> --datapath <path to the datafile(.npy)>
+      --model <path to the model weights> --test-batch-size <batchsize of testing> --arch <model architecture> --depth <model depth> --subject <testing subject> --datapath <path to the data file(.npy)>
         ```
 
       **Command example**
       ```python
-      python confusion_matrix_for_newarch.py --model ./checkpoint/model_best.pth.tar --test-batch-size 32 --arch vgg_D_only_depth_seg --depth 16 --subject SubjectE/ --datapath ./D_WeiZen_follow_filename
+      python confusion_matrix_for_newarch.py --model ./checkpoint/model_best.pth.tar --test-batch-size 32 --arch vgg_D_only_depth_seg --depth 16 --subject SubjectE/ --datapath ./ASL
       ```
