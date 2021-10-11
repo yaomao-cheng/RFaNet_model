@@ -100,8 +100,8 @@ Code contributor: Yao-Mao Cheng
     
 ## Citation
      InProceedings{
-     author = {Shih-Hung Yang, Yao-Mao Cheng, Jun-Wei Huang, Yon-Ping Chen},
-     title = {RFaNet: Receptive Field Aware Network with Finger Attention},
+     author = {Shih-Hung Yang, Yao-Mao Cheng, Jyun-We Huang, Yon-Ping Chen},
+     title = {RFaNet: Receptive Field Aware Network with Finger Attention for Fingerspelling Recognition using Depth Sensor},
      booktitle = {},
      year = {2021}
      }
