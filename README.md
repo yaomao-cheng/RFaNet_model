@@ -6,7 +6,7 @@ Code contributor: Yao-Mao Cheng
 
 =================================================================
 ## RFaNet model structure
-![image](https://github.com/yaomao-cheng/RFaNet_model/blob/master/image/RFaNet_structure.png)
+![image](https://github.com/yaomao-cheng/RFaNet_model/blob/master/image/RFaNet.PNG)
 
 ## Statement
   * you can find the RFaNet model in **utils/model/**
