@@ -1,4 +1,5 @@
 # Code for the paper
+Shih-Hung Yang, Yao-Mao Cheng, Jyun-We Huang, and Yon-Ping Chen. **RFaNet: Receptive Field Aware Network with Finger Attention for Fingerspelling Recognition using Depth Sensor**
 
 Code contributor: Yao-Mao Cheng
 
