@@ -8,6 +8,8 @@ Code contributor: Yao-Mao Cheng
 ## RFaNet model structure
 ![image](https://github.com/yaomao-cheng/RFaNet_model/blob/master/image/RFaNet.PNG)
 
+## Main effectiveness of RFaNet compared with the general CNN model
+![image](https://github.com/yaomao-cheng/RFaNet_model/blob/master/image/Effect%20of%20RFaNet.PNG)
 ## Statement
   * you can find the RFaNet model in **utils/model/**
   * The code is trained and tested on **ASL Dataset, NTU Dataset, and OUHANDS Dataset** in numpy file
